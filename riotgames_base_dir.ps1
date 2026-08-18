@@ -9,8 +9,7 @@
 
 # Make a copy of the original directory on C:\Riot Games to a destination that you like. As example D:\Games\Riot Games\
 
-# Change the value of $OriginalPathRiotGames.
-
+# Change the value of $NewPathToRiotGames.
 $OriginalPathRiotGames = 'C:\Riot Games'
 $NewPathToRiotGames = 'D:\Games\Riot Games\'
 
