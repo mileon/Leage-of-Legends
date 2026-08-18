@@ -17,6 +17,3 @@ $NewPathToRiotGames = 'D:\Games\Riot Games\'
 New-Item -Type Junction -Path $OriginalPathRiotGames -Value $NewPathToRiotGames
 
 Set-ItemProperty -Path $OriginalPathRiotGames -Name Attributes -Value 'Hidden'
-
-# If you want to remove the directory with the powershell
-# Remove-Item $OriginalPathRiotGames
